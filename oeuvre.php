@@ -1,10 +1,22 @@
 <?php
 
-$recipes = ['Dodomu', 'Couscous', 'Aashaah Baadaleen', 'Nightlife Traffic', 'Nightlife Traffic', 'Red Washover', 
-'Chromatics', 'Digital Negative', 'Blast from the past', 'Hurricane', 'La marée rouge', 'Asimilacion',
-'La Galaxia Gialla', 'Puffy Amalgamate', 'Mirage', 'Blaue Gelbe Muster',];
-
-<?php
-echo $recipes[1]; 
+$recipes = [
+    [
+        'titre' => 'Dodomu',
+        'lien' => 'oeuvre-1.php',
+        'image' => 'img/clark-van-der-beken.png',
+        'description' => 'Mia Tozerski'
+    ],
+    
+    [
+        'titre' => 'Aashaah Baadaleen',
+        'lien' => 'oeuvre-2.php',
+        'image' => 'img/img/pawel-czerwinski.png',
+        'description' => 'Anaisha Devi'
+    ],
+    
+    
+    // Ajoutez plus d’œuvres ici...
+];
 
 ?>
